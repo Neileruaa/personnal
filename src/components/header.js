@@ -1,42 +1,62 @@
-import { Link } from "gatsby"
+import {Link} from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, {useState} from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const Header = ({siteTitle}) => {
+
+    const [isActive, setIsActive] = useState(false);
+
+    return (
+        <section className="hero is-success is-fullheight">
+            <div className="hero-head">
+                <header>
+                    <nav className="navbar" role="navigation" aria-label="main navigation">
+                        <div className="navbar-brand">
+                            <a className="navbar-item" href="#">
+                                <Link
+                                    to="/"
+                                >
+                                    {siteTitle}
+                                </Link>
+                            </a>
+                            <a role="button"
+                               className={isActive ? "navbar-burger burger is-active" : "navbar-burger burger"}
+                               aria-label="menu" aria-expanded="false"
+                               data-target="navigationBar"
+                               onClick={() => setIsActive(!isActive)}>
+                                <span aria-hidden="true"/>
+                                <span aria-hidden="true"/>
+                                <span aria-hidden="true"/>
+                            </a>
+                        </div>
+                        <div id="navigationBar" className={isActive ? "navbar-menu is-active" : "navbar-menu"}>
+                            <div className="navbar-start">
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+
+            <div className="hero-body">
+                <div className="container has-text-centered">
+                    <h1 className="title">
+                        Title
+                    </h1>
+                    <h2 className="subtitle">
+                        Subtitle
+                    </h2>
+                </div>
+            </div>
+        </section>
+    )
+};
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+    siteTitle: PropTypes.string,
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+    siteTitle: `Aurélien DREY Default`,
+};
 
 export default Header

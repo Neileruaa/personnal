@@ -1,4 +1,7 @@
 @charset "utf-8";
-// If need, change your variables before importing Bulma
-//$title-color: #ff0000;
+
+//Any padding around section, which is first child of body
+$section-padding: 0;
+
+
 @import "~bulma/bulma";
