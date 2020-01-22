@@ -3,5 +3,19 @@
 //Any padding around section, which is first child of body
 $section-padding: 0;
 
+$primary: #7510f7;
+
+nav {
+  padding: 1.2rem 0;
+}
+
+.avatar {
+  margin: 2rem 0;
+  width: 210px;
+}
+
+.__bio {
+  padding: 5rem 1.5rem !important;
+}
 
 @import "~bulma/bulma";
