@@ -2,7 +2,7 @@ import React from 'react'
 
 const Biography = () => {
     return (
-        <section className="section has-text-centered is-medium has-background-primary is-long __bio">
+        <section className="section has-text-centered has-background-primary is-long __bio">
             <div className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-fifth">

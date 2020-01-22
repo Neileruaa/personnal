@@ -4,6 +4,7 @@
 $section-padding: 0;
 
 $primary: #7510f7;
+$box-radius: 12px;
 
 nav {
   padding: 1.2rem 0;
@@ -15,7 +16,37 @@ nav {
 }
 
 .__bio {
+  padding: 9rem 1.5rem !important;
+}
+
+.__skill-icon {
+  height: 48px !important;
+  width: auto !important;
+}
+
+section.skills .box .content .columns .column {
+  border-bottom: 0px solid #E6ECF8;
+  border-right: 1px solid #E6ECF8;
+  padding: 60px 35px;
+}
+
+.__spoilTop {
+  margin-top: -14rem !important;
   padding: 5rem 1.5rem !important;
+  padding-bottom: 9rem !important;
+}
+
+.section.is-long {
+  padding-bottom: 16rem !important;
+}
+
+.section.skills .box {
+  padding: 0 !important;
+}
+
+.section.skills .box .content .columns .column:last-child {
+  border-right: none;
+  border-bottom: none;
 }
 
 @import "~bulma/bulma";
