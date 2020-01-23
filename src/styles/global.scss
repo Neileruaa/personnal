@@ -142,4 +142,15 @@ section.skills .box .content .columns .column {
   color: #fff;
 }
 
+.has-border-top {
+  border-top: 1px solid #E6ECF8;
+}
+
+section.clients {
+  padding: 5rem 1.5rem !important;
+}
+
+.section.clients .client-grid {
+  padding-top: 3rem;
+}
 @import "~bulma/bulma";
