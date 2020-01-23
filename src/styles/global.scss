@@ -49,4 +49,9 @@ section.skills .box .content .columns .column {
   border-bottom: none;
 }
 
+.hero-foot img.is-bottom {
+  margin-bottom: -0.45rem;
+  max-width: 860px;
+}
+
 @import "~bulma/bulma";
