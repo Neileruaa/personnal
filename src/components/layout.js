@@ -12,6 +12,7 @@ import {useStaticQuery, graphql} from "gatsby"
 import Header from "./header"
 import Biography from "./biography";
 import Skills from "./skills";
+import RecentWork from "./recentWork";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -29,6 +30,7 @@ const Layout = ({children}) => {
             <Header siteTitle={data.site.siteMetadata.title}/>
             <Biography />
             <Skills />
+            <RecentWork />
             <main>{children}</main>
             <footer>
                 © {new Date().getFullYear()}, Built with
