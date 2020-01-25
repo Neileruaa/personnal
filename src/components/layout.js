@@ -14,6 +14,8 @@ import Biography from "./biography";
 import Skills from "./skills";
 import RecentWork from "./recentWork";
 import Clients from "./Clients";
+import PersonnalProjects from "./PersonnalProjects";
+import Projects from "./projects";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -32,7 +34,9 @@ const Layout = ({children}) => {
             <Biography />
             <Skills />
             <RecentWork />
-            <Clients/>
+            <Clients />
+            <PersonnalProjects />
+            <Projects />
             <main>{children}</main>
             <footer>
                 © {new Date().getFullYear()}, Built with
