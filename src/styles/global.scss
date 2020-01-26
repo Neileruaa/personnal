@@ -49,9 +49,13 @@ section.skills .box .content .columns .column {
   border-bottom: none;
 }
 
-.hero-foot img.is-bottom {
-  margin-bottom: -0.45rem;
-  max-width: 860px;
+
+
+@media screen and (min-width: 769px){
+  .hero-foot img.is-bottom {
+    margin-bottom: -0.45rem;
+    max-width: 860px;
+  }
 }
 
 .container.is-narrow {
@@ -183,7 +187,11 @@ section.clients {
 
 
 .section.startups .startup-grid {
-  margin-bottom: 4rem;
+  margin-bottom: 18rem;
+}
+
+.section.pers-project {
+    padding: 5rem 1.5rem;
 }
 
 .section.startups .startup-grid .box {
@@ -217,4 +225,24 @@ section.clients {
     padding: 60px 35px;
   }
 }
+
+@media screen and (min-width: 769px){
+  .section.call-to-action .box {
+    padding: 3.5rem 1.25rem;
+  }
+}
+
+.section.call-to-action .box {
+  padding: 3.5rem 2rem;
+  margin-top: -9rem;
+  background-color: #141c3a;
+  box-shadow: 0 5px 5px 0
+  rgba(0,0,0,0.2),0 0 0 1px #141c3a;
+}
+
+.section.call-to-action .title, .section.call-to-action p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
 @import "~bulma/bulma";
