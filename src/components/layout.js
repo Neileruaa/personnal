@@ -17,6 +17,7 @@ import Clients from "./Clients";
 import PersonnalProjects from "./PersonnalProjects";
 import Projects from "./projects";
 import CallToAction from "./CallToAction";
+import Footer from "./footer";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -39,6 +40,7 @@ const Layout = ({children}) => {
             <PersonnalProjects />
             <Projects />
             <CallToAction   />
+            <Footer />
             <main>{children}</main>
             <footer>
                 © {new Date().getFullYear()}, Built with
