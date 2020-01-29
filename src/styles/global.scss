@@ -255,6 +255,54 @@ footer.section.is-small {
   }
 }
 
+footer .social-icons a.button {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 .2rem;
+  height: 47px;
+  width: 47px;
+  border: 2px solid
+  rgba(255,255,255,0.3);
+}
 
 
+@media screen and (min-width: 769px){
+  footer .social-icons a.button {
+    margin: 0 0.8rem;
+  }
+}
+
+
+footer .social-icons a.button.is-medium {
+  font-size: 1.05rem;
+}
+
+@media screen and (min-width: 769px){
+  footer .social-icons a.button.is-medium {
+    font-size: 1.18rem;
+  }
+}
+
+footer .social-icons a.button:hover {
+  background: #fff;
+  color: #7510F7;
+  border: 2px solid #fff;
+}
+
+footer .social-icons a.button .icon.is-small {
+  height: 0.8em;
+  width: 0.8em;
+}
+
+.button .icon:first-child:last-child {
+  margin-left: calc(-.5em - 1px);
+  margin-right: calc(-.5em - 1px);
+}
+
+a, .button {
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  font-weight: 400;
+}
 @import "~bulma/bulma";
