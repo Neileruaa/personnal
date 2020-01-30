@@ -4,6 +4,7 @@ import React, {useState} from "react"
 import LogoImg from '../images/Shape.svg'
 import AvatarImg from '../images/undraw_developer.svg'
 import HeroImg from '../images/hero.svg'
+import TextTyper from "./textTyping";
 
 const Header = ({siteTitle}) => {
 
@@ -58,7 +59,8 @@ const Header = ({siteTitle}) => {
                                 Développeur passionné
                             </h1>
                             <h2 className="subtitle is-size-4-desktop">
-                                Je crée et je code des applications, et ... <span className="__is-typing">j'adore le faire. TYPING</span>
+                                Je crée et je code des applications, et ...
+                                <TextTyper/>
                             </h2>
                             <img src={AvatarImg} className="avatar"/>
                         </div>
