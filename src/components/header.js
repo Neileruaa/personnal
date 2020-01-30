@@ -2,7 +2,7 @@ import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React, {useState} from "react"
 import LogoImg from '../images/Shape.svg'
-import AvatarImg from '../images/mf-avatar.svg'
+import AvatarImg from '../images/undraw_developer.svg'
 import HeroImg from '../images/hero.svg'
 
 const Header = ({siteTitle}) => {
@@ -55,10 +55,10 @@ const Header = ({siteTitle}) => {
                     <div className="columns">
                         <div className="column">
                             <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-                                Designer, Front-end Developer & Mentor
+                                Développeur passionné
                             </h1>
                             <h2 className="subtitle is-size-4-desktop">
-                                I design and code beautifully simple things, and I love what I do.
+                                Je crée et je code des applications, et ... <span className="__is-typing">j'adore le faire. TYPING</span>
                             </h2>
                             <img src={AvatarImg} className="avatar"/>
                         </div>

@@ -12,7 +12,7 @@ nav {
 
 .avatar {
   margin: 2rem 0;
-  width: 210px;
+  width: 350px;
 }
 
 .__bio {
@@ -22,6 +22,11 @@ nav {
 .__skill-icon {
   height: 48px !important;
   width: auto !important;
+}
+
+.subtitle {
+  font-weight: 300 !important;
+  line-height: 1.5 !important;
 }
 
 section.skills .box .content .columns .column {

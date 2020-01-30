@@ -2,6 +2,37 @@
 <svg width="650px" height="265px" viewBox="0 0 650 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
     <title>Group 32</title>
+    <defs>
+        <style type="text/css"><![CDATA[
+       svg {
+            height: 265px;
+            width: 650px;
+        }
+
+        svg path {
+            stroke-dashoffset: 900.02978515625;
+            stroke-dasharray: 900.02978515625;
+            animation: draw 10s forwards;
+        }
+
+        svg g {
+            fill-opacity: 0;
+            animation: fill-in 2s 6s forwards;
+        }
+
+        @keyframes fill-in {
+            to {
+                fill-opacity: 1;
+            }
+        }
+
+        @keyframes draw {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    ]]></style>
+    </defs>
     <desc>Created with Sketch.</desc>
     <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group-32" transform="translate(0.000000, 3.000000)">
