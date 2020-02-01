@@ -14,51 +14,53 @@ const Skills = () => {
                                 <figure className="image">
                                     <img className="is-skill-icon __skill-icon" src={DesignerImg} />
                                 </figure>
-                                <h1 className="title is-size-4 is-spaced">Designer</h1>
-                                <p>I value simple content structure, clean design patterns, and thoughtful
-                                    interactions.</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Things I enjoy
-                                    designing:</p>
-                                <p>UX, UI, Web, Mobile, Apps, Logos</p>
+                                <h1 className="title is-size-4 is-spaced">Frond-end</h1>
+                                <p>
+                                    <i>Une bonne interface est comme une bonne blague.
+                                    S'il faut l'expliquer, c'est qu'elle n'est pas si bonne.
+                                    </i>
+                                </p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Mes technologies favorites</p>
+                                <p>Application en temps réels, application native, Moteur de rendu</p>
                                 <p className="list-title has-text-primary has-text-weight-normal">Design Tools:</p>
                                 <ul>
-                                    <li>Balsamiq Mockups</li>
-                                    <li>Figma</li>
-                                    <li>Invision</li>
-                                    <li>Marvel</li>
-                                    <li>Pen &amp; Paper</li>
-                                    <li>Sketch</li>
-                                    <li>Webflow</li>
-                                    <li>Zeplin</li>
+                                    <li>React</li>
+                                    <li>React Native</li>
+                                    <li>VueJs</li>
+                                    <li>Twig</li>
+                                    <li>Sass</li>
+                                    <li>Bootstrap</li>
+                                    <li>Bulma</li>
+                                    <li>FontAwesome</li>
                                 </ul>
                             </div>
                             <div className="column">
                                 <figure className="image">
                                     <img className="is-skill-icon __skill-icon" src={FrontendImg} />
                                 </figure>
-                                <h1 className="title is-size-4 is-spaced">Front-end Developer</h1>
-                                <p>I like to code things from scratch, and enjoy bringing ideas to life in the
-                                    browser.</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Languages I speak:</p>
-                                <p>HTML, Pug, Slim, CSS, Sass, Less</p>
+                                <h1 className="title is-size-4 is-spaced">Back-end</h1>
+                                <p>J'aime coder en partant de zéro, et donner vie à ces idées dans le navigateur.</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Langages que je maitrise :</p>
+                                <p>Php, Symfony, Javascript, NodeJs, SQL, Python, Java.</p>
                                 <p className="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
                                 <ul>
-                                    <li>Atom</li>
-                                    <li>Bitbucket</li>
-                                    <li>Bootstrap</li>
-                                    <li>Bulma</li>
-                                    <li>Codekit</li>
-                                    <li>Codepen</li>
-                                    <li>Github</li>
-                                    <li>Gitlab</li>
-                                    <li>Terminal</li>
+                                    <li>Php</li>
+                                    <li>Symfony</li>
+                                    <li>Javascript</li>
+                                    <li>NodeJs</li>
+                                    <li>MySQl</li>
+                                    <li>MongoDb</li>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>Git &amp; Github</li>
+                                    <li>Linux</li>
                                 </ul>
                             </div>
                             <div className="column">
                                 <figure className="image">
                                     <img className="is-skill-icon __skill-icon" src={MentorImg} />
                                 </figure>
-                                <h1 className="title is-size-4 is-spaced">Mentor</h1>
+                                <h1 className="title is-size-4 is-spaced">Gestion</h1>
                                 <p>I genuinely care about people, and love helping fellow designers work on their
                                     craft.</p>
                                 <p className="list-title has-text-primary has-text-weight-normal">Experiences I draw
