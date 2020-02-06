@@ -7,9 +7,10 @@ const RecentWork = () => {
     return(
         <section className="section projects is-medium is-white has-text-centered">
             <div className="container is-narrow">
-                <h1 className="title is-spaced is-size-3-desktop is-size-4-mobile">My Recent Work</h1>
-                <h2 className="subtitle is-size-5-desktop">Here are a few recent design projects. Want to see more? <a
-                    href="aureliendrey@gmail.com">Email me</a>.</h2>
+                <h1 className="title is-spaced is-size-3-desktop is-size-4-mobile">Mes derniers travaux</h1>
+                <h2 className="subtitle is-size-5-desktop">Voici quelques projets auxquels j'ai participé.
+                    En savoir plus ?
+                    <a href="aureliendrey@gmail.com">Envoyez moi un email</a>.</h2>
                 <div className="project-grid">
                     <div className="columns is-multiline is-mobile">
                         <div className="column is-12-mobile is-half-tablet is-one-third-desktop">

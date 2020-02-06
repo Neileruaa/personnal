@@ -14,8 +14,9 @@ const Clients = () => {
             <div className="container is-narrow">
                 <div className="columns is-centered">
                     <div className="column is-half">
-                        <h1 className="title is-size-3-desktop is-size-4-tablet is-size-5-mobile">I'm proud to have
-                            collaborated with some awesome companies:</h1>
+                        <h1 className="title is-size-3-desktop is-size-4-tablet is-size-5-mobile">
+                            Je suis fier d'avoir pu collaborer avec ces super entreprises :
+                        </h1>
                     </div>
                 </div>
                 <div className="client-grid">

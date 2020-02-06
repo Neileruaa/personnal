@@ -7,14 +7,16 @@ const CallToAction = () => {
                 <div className="box">
                     <div className="columns level">
                         <div className="column level-item">
-                            <h1 className="title">Start a project</h1>
+                            <h1 className="title">Commencer un projet</h1>
                         </div>
                         <div className="column level-item">
-                            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+                            <p>Une idée de projet ? On pourrait se rencontrer. Je paie le café !</p>
                         </div>
-                        <div className="column level-item"><a
-                            className="button is-primary is-outlined is-rounded is-medium" href="/project-planner">Let's
-                            do this</a></div>
+                        <div className="column level-item">
+                            <a className="button is-primary is-outlined is-rounded is-medium" href="aureliendrey@gmail.com">
+                                Envoyez moi un email
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
