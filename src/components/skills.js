@@ -60,21 +60,20 @@ const Skills = () => {
                                 <figure className="image">
                                     <img className="is-skill-icon __skill-icon" src={MentorImg} />
                                 </figure>
-                                <h1 className="title is-size-4 is-spaced">Gestion</h1>
-                                <p>I genuinely care about people, and love helping fellow designers work on their
-                                    craft.</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Experiences I draw
-                                    from:</p>
-                                <p>UX/UI, Product design, Freelancing</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Mentor Stats:</p>
+                                <h1 className="title is-size-4 is-spaced">Autres</h1>
+                                <p>Dans mon parcours j'ai pu apprendre et découvrir d'autres compétences !</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Expériences que je tire
+                                    de :</p>
+                                <p>Management, gestion, économie, veille technologique, mathématiques</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Ce que j'ai découvert</p>
                                 <ul>
-                                    <li>4 years experience</li>
-                                    <li>26 short courses</li>
-                                    <li>37 bootcamps</li>
-                                    <li>125+ students</li>
-                                    <li>1,200+ mentor sessions</li>
-                                    <li>60+ group critiques</li>
-                                    <li>10,000+ comments</li>
+                                    <li>Théorie des organisations</li>
+                                    <li>Management agile</li>
+                                    <li>Veille technologique active</li>
+                                    <li>Intelligence artificielle</li>
+                                    <li>Contrôle de gestion</li>
+                                    <li>Economie d'entreprise</li>
+                                    <li>Comptabilité</li>
                                 </ul>
                             </div>
                         </div>
