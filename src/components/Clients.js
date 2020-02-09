@@ -1,12 +1,9 @@
 import React from 'react';
+import Img2le from '../images/logo2le.png'
 import AcaStrasImg from '../images/logo_aca_stras.svg'
 import BubImg from '../images/logo-bubendorff.png'
 import FDOImg from '../images/fdo-logo.jpeg'
 import OrangeImg from '../images/logo-orange.png'
-import DesignlabImg from '../images/designlab.png'
-import ChronicledImg from '../images/chronicled.svg'
-import BldrsImg from '../images/bldrs.png'
-import SerpMetricsImg from '../images/serpmetrics.svg'
 
 const Clients = () => {
     return (
@@ -21,6 +18,10 @@ const Clients = () => {
                 </div>
                 <div className="client-grid">
                     <div className="columns is-multiline is-mobile">
+                        <div className="column is-half-mobile is-one-quarter-tablet">
+                            <figure className="image "><img className="client-logo" src={Img2le} />
+                            </figure>
+                        </div>
                         <div className="column is-half-mobile is-one-quarter-tablet">
                             <figure className="image "><img className="client-logo" src={AcaStrasImg} />
                             </figure>

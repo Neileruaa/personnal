@@ -30,9 +30,17 @@ nav {
 }
 
 section.skills .box .content .columns .column {
-  border-bottom: 0px solid #E6ECF8;
-  border-right: 1px solid #E6ECF8;
+  border-bottom: 1px solid #E6ECF8;
+  border-right: 0px solid #E6ECF8;
   padding: 60px 35px;
+}
+
+@media screen and (min-width: 769px){
+  section.skills .box .content .columns .column {
+    border-bottom: 0px solid #E6ECF8;
+    border-right: 1px solid #E6ECF8;
+    padding: 60px 35px;
+  }
 }
 
 .__spoilTop {
