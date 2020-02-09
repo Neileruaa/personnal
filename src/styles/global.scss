@@ -163,6 +163,11 @@ section.clients {
   padding-top: 3rem;
 }
 
+.client-logo {
+  max-height: 83px;
+  object-fit: contain;
+}
+
 .section.is-primary {
   background-color: #7510F7;
   color: #fff;
