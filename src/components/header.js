@@ -13,42 +13,45 @@ const Header = ({siteTitle}) => {
     return (
         <section className="hero is-transparent is-fullheight has-text-centered">
             <div className="hero-head">
-                <header>
-                    <nav className="navbar" role="navigation" aria-label="main navigation">
-                        <div className="container">
-                            <div className="navbar-brand">
-                                <Link
-                                    to="/"
-                                    className="navbar-item"
-                                >
-                                    <img src={LogoImg} alt="Logo en svg" height="48" style={{maxHeight: '3rem',}}/>
-                                </Link>
-                                {/*<a role="button"*/}
-                                {/*   className={isActive ? "navbar-burger burger is-active" : "navbar-burger burger"}*/}
-                                {/*   aria-label="menu" aria-expanded="false"*/}
-                                {/*   data-target="navigationBar"*/}
-                                {/*   onClick={() => setIsActive(!isActive)}>*/}
-                                {/*    <span aria-hidden="true"/>*/}
-                                {/*    <span aria-hidden="true"/>*/}
-                                {/*    <span aria-hidden="true"/>*/}
-                                {/*</a>*/}
-                            </div>
-                            {/*<div id="navigationBar" className={isActive ? "navbar-menu is-active" : "navbar-menu"}>*/}
-                            {/*    <div className="navbar-start"/>*/}
-                            {/*    <div className="navbar-end">*/}
-                            {/*        <div className="navbar-item">*/}
-                            {/*            Mentorship*/}
-                            {/*        </div>*/}
-                            {/*        <div className="navbar-item">*/}
-                            {/*            <a className="button is-primary is-outlined is-rounded">*/}
-                            {/*                Say Hello*/}
-                            {/*            </a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
-                        </div>
-                    </nav>
-                </header>
+                <div className="has-text-left">
+                    <img src={LogoImg} alt="Logo en svg" className="__logo"/>
+                </div>
+                {/*<header>*/}
+                {/*    <nav className="navbar is-fixed-top-touch" role="navigation" aria-label="main navigation">*/}
+                {/*        <div className="container">*/}
+                {/*            <div className="navbar-brand">*/}
+                {/*                <Link*/}
+                {/*                    to="/"*/}
+                {/*                    className="navbar-item"*/}
+                {/*                >*/}
+                {/*                    <img src={LogoImg} alt="Logo en svg" height="48" style={{maxHeight: '3rem',}}/>*/}
+                {/*                </Link>*/}
+                {/*                /!*<a role="button"*!/*/}
+                {/*                /!*   className={isActive ? "navbar-burger burger is-active" : "navbar-burger burger"}*!/*/}
+                {/*                /!*   aria-label="menu" aria-expanded="false"*!/*/}
+                {/*                /!*   data-target="navigationBar"*!/*/}
+                {/*                /!*   onClick={() => setIsActive(!isActive)}>*!/*/}
+                {/*                /!*    <span aria-hidden="true"/>*!/*/}
+                {/*                /!*    <span aria-hidden="true"/>*!/*/}
+                {/*                /!*    <span aria-hidden="true"/>*!/*/}
+                {/*                /!*</a>*!/*/}
+                {/*            </div>*/}
+                {/*            /!*<div id="navigationBar" className={isActive ? "navbar-menu is-active" : "navbar-menu"}>*!/*/}
+                {/*            /!*    <div className="navbar-start"/>*!/*/}
+                {/*            /!*    <div className="navbar-end">*!/*/}
+                {/*            /!*        <div className="navbar-item">*!/*/}
+                {/*            /!*            Mentorship*!/*/}
+                {/*            /!*        </div>*!/*/}
+                {/*            /!*        <div className="navbar-item">*!/*/}
+                {/*            /!*            <a className="button is-primary is-outlined is-rounded">*!/*/}
+                {/*            /!*                Say Hello*!/*/}
+                {/*            /!*            </a>*!/*/}
+                {/*            /!*        </div>*!/*/}
+                {/*            /!*    </div>*!/*/}
+                {/*            /!*</div>*!/*/}
+                {/*        </div>*/}
+                {/*    </nav>*/}
+                {/*</header>*/}
             </div>
 
             <div className="hero-body">
