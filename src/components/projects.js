@@ -13,26 +13,22 @@ const Projects = () => {
                         <div className="column level-item">
                             <div className="box">
                                 <img className="logo" src={BasinImg} />
-                                <p>Simple form backend for designers and developers. Easy to setup. No coding
-                                    required.</p>
-                                <a className="link has-text-primary" href="https://usebasin.com">www.usebasin.com</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
+                                <a className="link has-text-primary" href="https://usebasin.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
                         <div className="column level-item">
                             <div className="box">
                                 <img className="logo" src={Ylbuilder} />
-                                <p>Beautifully simple websites for independent distributors of Young Living Essential
-                                    Oils.</p>
-                                <a className="link has-text-primary" href="https://ylbuilders.com">www.ylbuilders.com</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
+                                <a className="link has-text-primary" href="https://ylbuilders.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
                         <div className="column level-item">
                             <div className="box">
                                 <img className="logo" src={HoustonImg} />
-                                <p>Simple feedback and engagement tools for teams that want to build and ship winning
-                                    products.</p>
-                                <a className="link has-text-primary">Relaunching
-                                Q4 2019 </a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
+                                <a className="link has-text-primary">https://fr.lipsum.com</a>
                             </div>
                         </div>
                     </div>

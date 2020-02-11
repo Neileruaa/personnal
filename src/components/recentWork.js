@@ -17,9 +17,8 @@ const RecentWork = () => {
                             <figure className="image is-3by2 wrapper">
                                 <img className="project-thumb" src={awg2020img} />
                                 <figcaption className="content-overlay">
-                                    <h1 className="title is-size-5 is-size-4-widescreen">Uniting First Nations culture
-                                        and community through winter sports competition.</h1>
-                                    <a className="button is-primary is-outlined is-rounded" href="http://awg2020.org/" target="_blank">
+                                    <h1 className="title is-size-5 is-size-4-widescreen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </h1>
+                                    <a className="button is-primary is-outlined is-rounded" href="https://fr.lipsum.com/" target="_blank">
                                         <span>Visit Website</span>
                                         <span className="icon">
                                             {/*<i class="fas fa-angle-right"></i>*/}
@@ -33,9 +32,8 @@ const RecentWork = () => {
                             <figure className="image is-3by2">
                                 <img className="project-thumb" src={chronicledImg} />
                                 <figcaption>
-                                    <h1 className="title is-size-5 is-size-4-widescreen">Blockchain pioneers bringing
-                                        transparency, trust, and security to supply.</h1>
-                                    <a className="button is-primary is-outlined is-rounded" href="https://www.chronicled.org/" target="_blank">
+                                    <h1 className="title is-size-5 is-size-4-widescreen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </h1>
+                                    <a className="button is-primary is-outlined is-rounded" href="https://fr.lipsum.com/" target="_blank">
                                         <span>Visit Website</span>
                                         <span className="icon">
                                             {/*<i class="fas fa-angle-right"></i>*/}
