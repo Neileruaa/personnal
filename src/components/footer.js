@@ -1,14 +1,14 @@
 import React from "react";
 import GatsbyImg from '../images/gatsby.svg'
-import LogoImg from '../images/Shape-white.svg'
+import LogoImg from '../images/bear_ad_aureliendrey_logo_2.svg'
 
 const Footer = () => {
     const year = new Date();
     return (
         <footer className="section is-primary is-small has-text-centered">
             <div className="container is-narrow">
-                <a className="logo" href="/">
-                    <img src={LogoImg} alt="Matt Farley | Designer, Front-end Developer &amp; Mentor" height="48"/>
+                <a className="" href="/">
+                    <img src={LogoImg} alt="Matt Farley | Designer, Front-end Developer &amp; Mentor" height="48" className="__logo_footer"/>
                 </a>
                 <div className="columns is-centered">
                     <div className="column is-one-third">

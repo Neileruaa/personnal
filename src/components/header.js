@@ -1,7 +1,7 @@
 import {Link} from "gatsby"
 import PropTypes from "prop-types"
 import React, {useState} from "react"
-import LogoImg from '../images/Shape.svg'
+import LogoImg from '../images/bear_ad_aureliendrey_logo_2.svg'
 import AvatarImg from '../images/undraw_developer.svg'
 import HeroImg from '../images/hero.svg'
 import TextTyper from "./textTyping";
