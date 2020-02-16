@@ -55,7 +55,7 @@ const Header = ({siteTitle}) => {
             </div>
 
             <div className="hero-body">
-                <div className="container has-text-centered">
+                <div className="container has-text-centered __topHeader">
                     <div className="columns">
                         <div className="column">
                             <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
