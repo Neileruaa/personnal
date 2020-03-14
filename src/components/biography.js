@@ -10,9 +10,11 @@ const Biography = () => {
                             Hey, je m'appelle Aurélien. Enchanté !
                         </h1>
                         <h2 className="subtitle is-size-5-desktop has-text-white">
-                            Étudiant en développement Web et Logiciel, je suis passionné de nouvelles technologies.
-                            Ma formation m'a permis ... Bref j'ai fais MIAGE et je sais gérer une entreprise
+                            Étudiant en MIAGE, je suis passionné de nouvelles technologies.
                             Curieux et ambitieux, j'aime apprendre, évoluer et relever des défis.
+                            Ma formation m'a permis d'acquérir des compétences en développement ainsi qu'en gestion.
+                            Je suis tombé dans la marmitte du Web, je raffole de ces technologies
+                            et je suis toujours prêt pour coder les idées les plus farfelues !
                         </h2>
                     </div>
                 </div>
