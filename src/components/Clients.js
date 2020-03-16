@@ -4,6 +4,8 @@ import AcaStrasImg from '../images/logo_aca_stras.svg'
 import BubImg from '../images/logo-bubendorff.png'
 import FDOImg from '../images/fdo-logo.jpeg'
 import OrangeImg from '../images/logo-orange.png'
+import LeLaboImg from '../images/lelabo.jpeg'
+import MMAImg from '../images/mma.jpeg'
 
 const Clients = () => {
     return (
@@ -38,6 +40,14 @@ const Clients = () => {
                             <figure className="image "><img className="client-logo" src={OrangeImg} />
                             </figure>
                         </div>
+                        <div className="column is-half-mobile is-one-quarter-tablet">
+                            <figure className="image "><img className="client-logo" src={LeLaboImg} />
+                            </figure>
+                        </div>
+                        <div className="column is-half-mobile is-one-quarter-tablet">
+                        <figure className="image "><img className="client-logo" src={MMAImg} />
+                        </figure>
+                    </div>
                     </div>
                 </div>
             </div>

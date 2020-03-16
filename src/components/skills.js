@@ -20,17 +20,18 @@ const Skills = () => {
                                     S'il faut l'expliquer, c'est qu'elle n'est pas si bonne.
                                     </i>
                                 </p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Mes technologies favorites</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Une interface aux petits
+                                oignons</p>
                                 <p>Application en temps réels, application native, Moteur de rendu</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Design Tools:</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Ma boîte à outil :</p>
                                 <ul>
                                     <li>React</li>
                                     <li>React Native</li>
                                     <li>VueJs</li>
                                     <li>Twig</li>
                                     <li>Sass</li>
-                                    <li>Bootstrap</li>
                                     <li>Bulma</li>
+                                    <li>Bootstrap</li>
                                     <li>FontAwesome</li>
                                 </ul>
                             </div>
@@ -40,9 +41,9 @@ const Skills = () => {
                                 </figure>
                                 <h1 className="title is-size-4 is-spaced">Back-end</h1>
                                 <p>J'aime coder en partant de zéro, et donner vie à ces idées dans le navigateur.</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Langages que je maitrise :</p>
-                                <p>Php, Symfony, Javascript, NodeJs, SQL, Python, Java.</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Et en plus ?</p>
+                                <p>Avec des tests c'est mieux !</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Langages et tech' :</p>
                                 <ul>
                                     <li>Php</li>
                                     <li>Symfony</li>
@@ -53,7 +54,7 @@ const Skills = () => {
                                     <li>Python</li>
                                     <li>Java</li>
                                     <li>Git &amp; Github</li>
-                                    <li>Linux</li>
+                                    <li>Linux &amp; Docker</li>
                                 </ul>
                             </div>
                             <div className="column">
@@ -62,10 +63,9 @@ const Skills = () => {
                                 </figure>
                                 <h1 className="title is-size-4 is-spaced">Autres</h1>
                                 <p>Dans mon parcours j'ai pu apprendre et découvrir d'autres compétences !</p>
-                                <p className="list-title has-text-primary has-text-weight-normal">Expériences que je tire
-                                    de :</p>
-                                <p>Management, gestion, économie, veille technologique, mathématiques</p>
                                 <p className="list-title has-text-primary has-text-weight-normal">Ce que j'ai découvert</p>
+                                <p>Management, gestion, économie, veille technologique, mathématiques</p>
+                                <p className="list-title has-text-primary has-text-weight-normal">Plus concrètement :</p>
                                 <ul>
                                     <li>Théorie des organisations</li>
                                     <li>Management agile</li>
