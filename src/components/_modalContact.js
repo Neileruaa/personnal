@@ -17,8 +17,8 @@ const _modalContact = ({closeClickHandler}) => {
                     </header>
                     <section className="modal-card-body">
 
-                        <input className="input" type="text" placeholder="Objet"/>
-                        <textarea className="textarea" placeholder="Votre message..."/>
+                        <input className="input" name="title" type="text" placeholder="Objet"/>
+                        <textarea className="textarea" name="content" placeholder="Votre message..."/>
 
                     </section>
                     <footer className="modal-card-foot">
