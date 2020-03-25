@@ -8,9 +8,13 @@ const _modalContact = ({closeClickHandler}) => {
             <div className="modal-card">
                 <header className="modal-card-head">
                     <p className="modal-card-title">Modal title</p>
-                    <button className="delete" aria-label="close"></button>
+                    <button onClick={(event) => {event.preventDefault(); closeClickHandler();}} className="delete" aria-label="close"></button>
                 </header>
                 <section className="modal-card-body">
+                    <form name={"contact"} data-netlify="true" data-netlify-honeypot="bot-field">
+                        <input className="input" type="text" placeholder="Objet" />
+                        <textarea className="textarea" placeholder="Votre message..."/>
+                    </form>
                 </section>
                 <footer className="modal-card-foot">
                     <button className="button is-success">Save changes</button>
