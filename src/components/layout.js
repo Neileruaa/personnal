@@ -18,6 +18,7 @@ import PersonnalProjects from "./PersonnalProjects";
 import Projects from "./projects";
 import CallToAction from "./CallToAction";
 import Footer from "./footer";
+import _modalContact from "./_modalContact";
 
 const Layout = ({children}) => {
     const data = useStaticQuery(graphql`
@@ -30,17 +31,26 @@ const Layout = ({children}) => {
     }
   `);
 
+    const handleOpenModal = function () {
+        document.querySelector('.modal').classList.add('is-active');
+    };
+
+    const closeClickHandler = () => {
+        document.querySelector('.modal').classList.remove('is-active');
+    };
+
     return (
         <>
+            <_modalContact closeClickHandler={closeClickHandler.bind(this)}/>
             <Header siteTitle={data.site.siteMetadata.title}/>
             <Biography />
             <Skills />
-            <RecentWork />
+            <RecentWork onClickHandler={handleOpenModal.bind(this)} />
             <Clients />
             <PersonnalProjects />
             <Projects />
-            <CallToAction   />
-            <Footer />
+            <CallToAction onClickHandler={handleOpenModal.bind(this)} />
+            <Footer onClickHandler={handleOpenModal.bind(this)}  />
             <main>{children}</main>
         </>
     )

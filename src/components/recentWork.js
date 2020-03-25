@@ -3,14 +3,18 @@ import awg2020img from '../images/awg2020.png'
 import chronicledImg from '../images/chronicled.png'
 
 
-const RecentWork = () => {
+const RecentWork = ({onClickHandler}) => {
     return(
         <section className="section projects is-medium is-white has-text-centered">
             <div className="container is-narrow">
                 <h1 className="title is-spaced is-size-3-desktop is-size-4-mobile">Mes derniers travaux</h1>
                 <h2 className="subtitle is-size-5-desktop">Voici quelques projets auxquels j'ai participé.
                     En savoir plus ?
-                    <a href="aureliendrey@gmail.com">Envoyez moi un email</a>.</h2>
+                    <a onClick={(e) => {
+                        e.preventDefault();
+                        onClickHandler();
+
+                    }} href="aureliendrey@gmail.com">Envoyez moi un email</a>.</h2>
                 <div className="project-grid">
                     <div className="columns is-multiline is-mobile">
                         <div className="column is-12-mobile is-half-tablet is-one-third-desktop">

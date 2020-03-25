@@ -1,6 +1,6 @@
 import React from "react";
 
-const CallToAction = () => {
+const CallToAction = ({onClickHandler}) => {
     return (
         <section className="section call-to-action is-primary has-text-centered __spoilTop">
             <div className="container is-narrow">
@@ -13,7 +13,11 @@ const CallToAction = () => {
                             <p>Une idée de projet ? On pourrait se rencontrer. Je paie le café !</p>
                         </div>
                         <div className="column level-item">
-                            <a className="button is-primary is-outlined is-rounded is-medium" href="aureliendrey@gmail.com">
+                            <a onClick={(e) => {
+                                e.preventDefault();
+                                onClickHandler();
+
+                            }} className="button is-primary is-outlined is-rounded is-medium" href="aureliendrey@gmail.com">
                                 Envoyez moi un email
                             </a>
                         </div>

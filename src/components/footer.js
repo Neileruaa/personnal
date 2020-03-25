@@ -4,7 +4,7 @@ import LogoImg from '../images/bear_ad_aureliendrey_logo_2.svg'
 import LinkedinLogo from '../images/linkedin-brands.svg'
 import EnvelopLogo from '../images/envelope-solid.svg'
 
-const Footer = () => {
+const Footer = ({onClickHandler}) => {
     const year = new Date();
     return (
         <footer className="section is-primary is-small has-text-centered">
@@ -28,7 +28,10 @@ const Footer = () => {
                             </span>
 
                         </a>
-                        <a className="button is-medium" href="mailto:aureliendrey@gmail.com" target="_blank">
+                        <a onClick={(e) => {
+                            e.preventDefault();
+                            onClickHandler();
+                        }} className="button is-medium" href="mailto:aureliendrey@gmail.com" target="_blank">
                             <span className="icon is-small footer__button__icon__contact">
                                 <img src={EnvelopLogo} alt="Envelop logo"/>
                             </span>

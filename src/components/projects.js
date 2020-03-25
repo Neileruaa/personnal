@@ -4,7 +4,7 @@ import Ylbuilder from '../images/ylbuilders.svg'
 import HoustonImg from '../images/houston.svg'
 
 
-const Projects = () => {
+const Projects = ({onClickHandler}) => {
     return (
         <section className="section startups has-text-centered __spoilTop">
             <div className="container is-narrow">
