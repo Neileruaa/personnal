@@ -4,7 +4,7 @@ const _modalContact = ({closeClickHandler}) => {
 
     return (
         <div className="modal">
-            <form name={"contact"} data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name={"contact"} method="POST" data-netlify="true">
                 <div className="modal-background"></div>
                 <div className="modal-card">
                     <header className="modal-card-head">
