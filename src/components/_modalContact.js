@@ -9,24 +9,33 @@ const _modalContact = ({closeClickHandler}) => {
                 <div className="modal-background"></div>
                 <div className="modal-card">
                     <header className="modal-card-head">
-                        <p className="modal-card-title">Modal title</p>
+                        <p className="modal-card-title">Envoie moi un message !</p>
                         <button onClick={(event) => {
                             event.preventDefault();
                             closeClickHandler();
                         }} className="delete" aria-label="close"></button>
                     </header>
                     <section className="modal-card-body">
-
-                        <input type="text" className="input" name="title" type="text" placeholder="Objet"/>
-                        <textarea className="textarea" name="content" placeholder="Votre message..."/>
+                        <div className="field">
+                            <input type="email" className="input" name="email" placeholder="Email"/>
+                        </div>
+                        <div className="field">
+                            <input type="text" className="input" name="nom" placeholder="Votre nom"/>
+                        </div>
+                        <div className="field">
+                            <input type="text" className="input" name="title" placeholder="Objet"/>
+                        </div>
+                        <div className="field">
+                            <textarea className="textarea" name="content" placeholder="Votre message..."/>
+                        </div>
 
                     </section>
                     <footer className="modal-card-foot">
-                        <button type="submit" className="button is-success">Save changes</button>
+                        <button type="submit" onClick={()=>{alert("Votre message a bien été envoyé ! Merci !")}} className="button is-success">Envoyer</button>
                         <button onClick={(event) => {
                             event.preventDefault();
                             closeClickHandler();
-                        }} className="button">Cancel
+                        }} className="button">Annuler
                         </button>
                     </footer>
                 </div>
