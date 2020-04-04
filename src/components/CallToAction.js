@@ -17,7 +17,7 @@ const CallToAction = ({onClickHandler}) => {
                                 e.preventDefault();
                                 onClickHandler();
 
-                            }} className="button is-primary is-outlined is-rounded is-medium" href="aureliendrey@gmail.com">
+                            }} className="button is-primary is-outlined is-rounded is-medium">
                                 Envoyez moi un email
                             </a>
                         </div>
