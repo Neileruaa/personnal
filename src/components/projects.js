@@ -12,22 +12,27 @@ const Projects = ({onClickHandler}) => {
                     <div className="columns is-centered level">
                         <div className="column level-item">
                             <div className="box">
-                                <img className="logo" src={BasinImg} />
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
-                                <a className="link has-text-primary" href="https://usebasin.com">https://fr.lipsum.com</a>
+                                <img className="logo" src={BasinImg}/>
+                                <p>Mon site du tutorial ! Mais il est encore en construction. Promis je finis au plus
+                                    vite !</p>
+                                <a className="link has-text-primary"
+                                   href="https://usebasin.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
                         <div className="column level-item">
                             <div className="box">
-                                <img className="logo" src={Ylbuilder} />
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
-                                <a className="link has-text-primary" href="https://ylbuilders.com">https://fr.lipsum.com</a>
+                                <img className="logo" src={Ylbuilder}/>
+                                <p>Ma chaîne Youtube.
+                                    Je fais des tutoriels vidéos pour les débutants voulant commencer le développement.
+                                    N'hésite pas à y jeter un oeil.</p>
+                                <a className="link has-text-primary"
+                                   href="https://ylbuilders.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
                         <div className="column level-item">
                             <div className="box">
-                                <img className="logo" src={HoustonImg} />
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend maximus lectus, quis posuere nunc pellentesque vel. Duis et risus. </p>
+                                <img className="logo" src={HoustonImg}/>
+                                <p>Ma page twitter où je relais les articles de veilles que je trouve passionnants !  </p>
                                 <a className="link has-text-primary">https://fr.lipsum.com</a>
                             </div>
                         </div>
