@@ -49,7 +49,7 @@ const Skills = () => {
                                     <li>Symfony</li>
                                     <li>Javascript</li>
                                     <li>NodeJs</li>
-                                    <li>MySQl</li>
+                                    <li>MySQL</li>
                                     <li>MongoDb</li>
                                     <li>Python</li>
                                     <li>Java</li>
