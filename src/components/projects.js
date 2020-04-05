@@ -9,9 +9,9 @@ const Projects = ({onClickHandler}) => {
         <section className="section startups has-text-centered __spoilTop">
             <div className="container is-narrow">
                 <div className="startup-grid">
-                    <div className="columns is-centered level">
-                        <div className="column level-item">
-                            <div className="box">
+                    <div className="columns is-flex is-centered">
+                        <div className="column is-vcentered">
+                            <div className="box __startup_box">
                                 <img className="logo" src={BasinImg}/>
                                 <p>Mon site du tutorial ! Mais il est encore en construction. Promis je finis au plus
                                     vite !</p>
@@ -19,8 +19,8 @@ const Projects = ({onClickHandler}) => {
                                    href="https://usebasin.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
-                        <div className="column level-item">
-                            <div className="box">
+                        <div className="column is-vcentered">
+                            <div className="box __startup_box">
                                 <img className="logo" src={Ylbuilder}/>
                                 <p>Ma chaîne Youtube.
                                     Je fais des tutoriels vidéos pour les débutants voulant commencer le développement.
@@ -29,8 +29,8 @@ const Projects = ({onClickHandler}) => {
                                    href="https://ylbuilders.com">https://fr.lipsum.com</a>
                             </div>
                         </div>
-                        <div className="column level-item">
-                            <div className="box">
+                        <div className="column is-vcentered">
+                            <div className="box __startup_box">
                                 <img className="logo" src={HoustonImg}/>
                                 <p>Ma page twitter où je relais les articles de veilles que je trouve passionnants !  </p>
                                 <a className="link has-text-primary">https://fr.lipsum.com</a>

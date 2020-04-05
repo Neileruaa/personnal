@@ -251,6 +251,10 @@ section.clients {
   border: none;
 }
 
+.__startup_box{
+  height: 100% !important;
+}
+
 @media screen and (min-width: 1216px){
   .section.startups .startup-grid .box {
     padding: 60px 35px;
