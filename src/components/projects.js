@@ -1,7 +1,7 @@
 import React from 'react'
-import BasinImg from '../images/basin.svg'
-import Ylbuilder from '../images/ylbuilders.svg'
-import HoustonImg from '../images/houston.svg'
+import RhombusImg from '../images/rhombus.gif'
+import YoutubeLogo from '../images/youtube__logo.png'
+import TwitterLogo from '../images/twitter_logo.png'
 
 
 const Projects = ({onClickHandler}) => {
@@ -12,28 +12,28 @@ const Projects = ({onClickHandler}) => {
                     <div className="columns is-flex is-centered">
                         <div className="column is-vcentered">
                             <div className="box __startup_box">
-                                <img className="logo" src={BasinImg}/>
+                                <img className="logo" src={RhombusImg}/>
                                 <p>Mon site du tutorial ! Mais il est encore en construction. Promis je finis au plus
                                     vite !</p>
-                                <a className="link has-text-primary"
-                                   href="https://usebasin.com">https://fr.lipsum.com</a>
+                                {/*<a className="link has-text-primary"*/}
+                                {/*   href="#">Vous cliquerez ici !</a>*/}
                             </div>
                         </div>
                         <div className="column is-vcentered">
                             <div className="box __startup_box">
-                                <img className="logo" src={Ylbuilder}/>
+                                <img className="logo" src={YoutubeLogo}/>
                                 <p>Ma chaîne Youtube.
                                     Je fais des tutoriels vidéos pour les débutants voulant commencer le développement.
                                     N'hésite pas à y jeter un oeil.</p>
                                 <a className="link has-text-primary"
-                                   href="https://ylbuilders.com">https://fr.lipsum.com</a>
+                                   href="https://www.youtube.com/channel/UCLx6FDKoMklfmRaAQYoTUIg?view_as=subscriber">Voir ma chaîne youtube</a>
                             </div>
                         </div>
                         <div className="column is-vcentered">
                             <div className="box __startup_box">
-                                <img className="logo" src={HoustonImg}/>
+                                <img className="logo" src={TwitterLogo}/>
                                 <p>Ma page twitter où je relais les articles de veilles que je trouve passionnants !  </p>
-                                <a className="link has-text-primary">https://fr.lipsum.com</a>
+                                <a className="link has-text-primary" href="https://twitter.com/AurelienDrey">Voir mon profil</a>
                             </div>
                         </div>
                     </div>
