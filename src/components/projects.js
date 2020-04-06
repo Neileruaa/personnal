@@ -9,9 +9,9 @@ const Projects = ({onClickHandler}) => {
         <section className="section startups has-text-centered __spoilTop">
             <div className="container is-narrow">
                 <div className="startup-grid">
-                    <div className="columns is-flex is-centered">
+                    <div className="columns is-desktop is-centered">
                         <div className="column is-vcentered">
-                            <div className="box __startup_box">
+                            <div className="box">
                                 <img className="logo" src={RhombusImg}/>
                                 <p>Mon site du tutorial ! Mais il est encore en construction. Promis je finis au plus
                                     vite !</p>
@@ -20,7 +20,7 @@ const Projects = ({onClickHandler}) => {
                             </div>
                         </div>
                         <div className="column is-vcentered">
-                            <div className="box __startup_box">
+                            <div className="box">
                                 <img className="logo" src={YoutubeLogo}/>
                                 <p>Ma chaîne Youtube.
                                     Je fais des tutoriels vidéos pour les débutants voulant commencer le développement.
@@ -30,7 +30,7 @@ const Projects = ({onClickHandler}) => {
                             </div>
                         </div>
                         <div className="column is-vcentered">
-                            <div className="box __startup_box">
+                            <div className="box">
                                 <img className="logo" src={TwitterLogo}/>
                                 <p>Ma page twitter où je relais les articles de veilles que je trouve passionnants !  </p>
                                 <a className="link has-text-primary" href="https://twitter.com/AurelienDrey">Voir mon profil</a>
